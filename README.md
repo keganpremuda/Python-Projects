@@ -31,8 +31,8 @@ This collection consists of various projects that demonstrate my abilities with 
 <b>Analog RGB Hue Modifier:</b><br/>
 <a href="https://github.com/keganpremuda/PythonProjects/blob/main/analogRGBButton.py">analogRGBButton.py</a><br></p>
 <p align="left">
-This program takes inputs from three switches that represent the red, green, and blue hue intensities of an RGB LED will emit as an output, and then displays those values in the terminal.
-The connection between the circuit and the pins on a Raspberry Pi 4 was achieved using the Rpi.GPIO library, and for this circuit implemented using internal Raspberry Pi 4 pull-up resistors with each switch.
+This program takes inputs from three switches that represent the red, green, and blue hue intensities that an RGB LED will emit as an output, and then displays those values in the terminal.
+The connection between the circuit and the pins on the Raspberry Pi 4 was achieved using the Rpi.GPIO library, and for this circuit, the switches were implemented using internal Raspberry Pi 4 pull-up resistors.
 The project also uses a Virtual Python library to simulate the change in RGB LED hue in a simulation window as the LED changes hue in real time. The Virtual Python simulation is used as
 digital validation that the code is functioning as intended.</p>
 <br />
@@ -43,9 +43,9 @@ digital validation that the code is functioning as intended.</p>
 <p align="left">
 This program takes in inputs from two switches that control the brightness of an LED and then displays the brightness value in the terminal.
 The program alerts the terminal when the brightness values are at their maximum and minimum values.
-The brightness increments by the power of a number to account for the large jumps in perceived brightness as the brightness changes at lower voltages.
-The connection between the circuit and the pins on a Raspberry Pi 4 was achieved using the Rpi.GPIO library, and for this circuit implemented using internal Raspberry Pi 4 pull-up resistors with each switch.
-Pulse width modulation was implemented to achieve analog values for the output of the LED.</p>
+The brightness increments by the power of a number to adjust for the large jumps in perceived brightness as the brightness changes at lower voltages.
+The connection between the circuit and the pins on a Raspberry Pi 4 was achieved using the Rpi.GPIO library, and for this circuit, the switches were implemented using internal Raspberry Pi 4 pull-up resistors.
+Pulse width modulation was utilized to achieve analog values for the output of the LED.</p>
 <br />
 </p>
 
